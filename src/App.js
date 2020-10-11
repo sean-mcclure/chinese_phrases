@@ -8,8 +8,9 @@ function App() {
   return (
     <React.Fragment>
     <div className="App">
-    <div id="header">CHINSE PHRASES</div>
-    <h4 id="subtitle">Search English Phrase<br></br>Click Result to Play Mandarin Audio</h4>
+    <div id="header">CHINESE PHRASES</div>
+    <h4 id="subtitle">Search English Phrase</h4>
+    <h4 id="subtitle_2">Click Result to Play Mandarin Audio</h4>
     <input id="search_phrase" placeholder="search phrase..." onChange={search_phrases}></input>
     <div id="hold_results"></div>
     </div>
